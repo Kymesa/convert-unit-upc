@@ -22,14 +22,14 @@
         <div class="row pt-4 converter-wrapper">
           <div class="col-md-12 pb-3">
             <form name="property_form">
-              <span>
+
                 <select
-                  class="select-property form-control"
+          class="form-select form-select-lg mb-3 active"
                   name="the_menu"
                   size="1"
                   onChange="UpdateUnitMenu(this, document.form_A.unit_menu); UpdateUnitMenu(this, document.form_B.unit_menu)"
                 ></select>
-              </span>
+    
             </form>
           </div>
 
@@ -44,11 +44,11 @@
                   value="0"
                   onKeyUp="CalculateUnit(document.form_A, document.form_B)"
                 />
-                <span>
+                <span class="mt-1">
                   <select
                     name="unit_menu"
                     onChange="CalculateUnit(document.form_B, document.form_A)"
-                    class="form-control"
+                    class="form-select"
                   ></select>
                 </span>
               </form>
@@ -70,11 +70,11 @@
                   value="0"
                   onkeyup="CalculateUnit(document.form_B, document.form_A)"
                 />
-                <span>
+                <span class="mt-1">
                   <select
                     name="unit_menu"
                     onChange="CalculateUnit(document.form_A, document.form_B)"
-                    class="form-control"
+                    class="form-select "
                   ></select>
                 </span>
               </form>
