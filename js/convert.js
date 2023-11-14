@@ -7,7 +7,7 @@ var factor = new Array();
 
 property[0] = "Acceleracion";
 unit[0] = new Array(
-  "Meter/sq.sec (m/sec^2)",
+  " (m/s²)",
   "Foot/sq.sec (ft/sec^2)",
   "G (g)",
   "Galileo (gal)",
