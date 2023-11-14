@@ -428,13 +428,9 @@ property[15] = "Time";
 unit[15] = new Array(
   "Second (sec)",
   "Day (mean solar)",
-  "Day (sidereal)",
   "Hour (mean solar)",
-  "Hour (sidereal)",
   "Minute (mean solar)",
-  "Minute (sidereal)",
   "Month (mean calendar)",
-  "Second (sidereal)",
   "Year (calendar)",
   "Year (tropical)",
   "Year (sidereal)"
