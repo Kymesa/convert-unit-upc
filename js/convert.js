@@ -218,137 +218,37 @@ property[12] = "Tiempo";
 unit[12] = new Array("Segundo", "día", "Hora", "Minuto", "Mes", "Año");
 factor[12] = new Array(1, 8.64e4, 3600, 60, 2628000, 31536000);
 
-// property[16] = "Velocity & Speed";
-// unit[16] = new Array(
-//   "Meter/second (m/sec)",
-//   "Foot/minute (ft/min)",
-//   "Foot/second (ft/sec)",
-//   "Kilometer/hour (kph)",
-//   "Knot (int'l)",
-//   "Mile (US)/hour (mph)",
-//   "Mile (nautical)/hour",
-//   "Mile (US)/minute",
-//   "Mile (US)/second",
-//   "Speed of light (c)",
-//   "Mach (STP)(a)"
-// );
-// factor[16] = new Array(
-//   1,
-//   5.08e-3,
-//   0.3048,
-//   0.2777778,
-//   0.5144444,
-//   0.44707,
-//   0.514444,
-//   26.8224,
-//   1609.344,
-//   299792458,
-//   340.006875
-// );
-
-// property[17] = "Viscosity";
-// unit[17] = new Array(
-//   "Newton-second/meter",
-//   "Centipoise",
-//   "Centistoke",
-//   "Sq.foot/second",
-//   "Poise",
-//   "Poundal-second/sq.foot",
-//   "Pound mass/foot-second",
-//   "Pound force-second/sq.foot",
-//   "Rhe",
-//   "Slug/foot-second",
-//   "Stoke"
-// );
-// factor[17] = new Array(
-//   1,
-//   0.001,
-//   0.000001,
-//   9.290304e-2,
-//   0.1,
-//   1.488164,
-//   1.488164,
-//   47.88026,
-//   10,
-//   47.88026,
-//   0.0001
-// );
-
-// property[18] = "Volume & Capacity";
-// unit[18] = new Array(
-//   "Cubic Meter (m^3)",
-//   "Cubic centimeter",
-//   "Cubic millimeter",
-//   "Acre-foot",
-//   "Barrel (oil)",
-//   "Board foot",
-//   "Bushel (US)",
-//   "Cup",
-//   "Fluid ounce (US)",
-//   "Cubic foot",
-//   "Gallon (UK)",
-//   "Gallon (US,dry)",
-//   "Gallon (US,liq)",
-//   "Gill (UK)",
-//   "Gill (US)",
-//   "Cubic inch (in^3)",
-//   "Liter (new)",
-//   "Liter (old)",
-//   "Ounce (UK,fluid)",
-//   "Ounce (US,fluid)",
-//   "Peck (US)",
-//   "Pint (US,dry)",
-//   "Pint (US,liq)",
-//   "Quart (US,dry)",
-//   "Quart (US,liq)",
-//   "Stere",
-//   "Tablespoon",
-//   "Teaspoon",
-//   "Ton (register)",
-//   "Cubic yard"
-// );
-// factor[18] = new Array(
-//   1,
-//   0.000001,
-//   0.000000001,
-//   1233.482,
-//   0.1589873,
-//   0.002359737,
-//   0.03523907,
-//   0.0002365882,
-//   0.00002957353,
-//   0.02831685,
-//   0.004546087,
-//   0.004404884,
-//   0.003785412,
-//   0.0001420652,
-//   0.0001182941,
-//   0.00001638706,
-//   0.001,
-//   0.001000028,
-//   0.00002841305,
-//   0.00002957353,
-//   8.809768e-3,
-//   0.0005506105,
-//   4.731765e-4,
-//   0.001101221,
-//   9.46353e-4,
-//   1,
-//   0.00001478676,
-//   0.000004928922,
-//   2.831685,
-//   0.7645549
-// );
-
-// property[19] = "Volume Flow";
-// unit[19] = new Array(
-//   "Cubic meter/second",
-//   "Cubic foot/second",
-//   "Cubic foot/minute",
-//   "Cubic inches/minute",
-//   "Gallons (US,liq)/minute)"
-// );
-// factor[19] = new Array(1, 0.02831685, 0.0004719474, 2.731177e-7, 6.30902e-5);
+property[12] = "Velocidad";
+unit[12] = new Array(
+  "Metro/segundo (m/seg)",
+  "Pie/minuto (pies/min)",
+  "Pie/segundo (pies/seg)",
+  "Kilómetro/hora"
+);
+factor[12] = new Array(1, 5.08e-3, 0.3048, 0.2777778);
+property[13] = "Volumen / Capacidad";
+unit[13] = new Array(
+  "Metro cúbico(m^3)",
+  "Centímetro cúbico",
+  "milímetro cúbico",
+  "Pie cubico",
+  "Galón",
+  "Pulgada cúbica",
+  "Litro (new)",
+  "Onza liquida",
+  "Yarda cúbica"
+);
+factor[13] = new Array(
+  1,
+  0.000001,
+  0.000000001,
+  0.02831685,
+  0.003785412,
+  0.00001638706,
+  0.001,
+  0.00002957353,
+  0.7645549
+);
 
 // ===========
 //  Functions
